@@ -4,7 +4,7 @@ body {
   background-color: #000000;
 }
 
-/* Estilos del header */
+
 .header {
   display: flex;
   background-color: #141414;
@@ -56,39 +56,37 @@ body {
   margin: 20px;
 }
 
-/* Estilos de las secciones */
+
 .section {
-  margin-bottom: 20px; /* Espacio entre secciones */
+  margin-bottom: 20px; 
 }
 
-/* Estilos de las imágenes */
+
 .imagenes {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Espacio entre imágenes */
+  gap: 10px;
 }
 
 .imagen {
-  width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
-  height: auto; /* Mantiene la proporción original */
-  display: block; /* Hace que la imagen sea un bloque */
-  margin: 0 auto; /* Centra la imagen horizontalmente */
-  border-radius: 8px; /* Añade bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+  width: 200px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  object-fit: cover;
 }
 
-/* Estilos del título de la película */
 .titulo {
-  text-align: center; /* Centra el texto del título */
-  margin-top: 8px; /* Espacio superior entre la imagen y el título */
-  font-size: 14px; /* Tamaño de fuente del título */
-  color: #ffffff; /* Color del texto del título */
+  text-align: center; 
+  margin-top: 8px; 
+  font-size: 14px; 
+  color: #ffffff; 
 }
 
-/* Estilos del contenedor de cada película */
+
 .pelicula {
-  text-align: center; /* Centra el contenido de la película */
-  margin-bottom: 20px; /* Espacio inferior entre películas */
+  text-align: center; 
+  margin-bottom: 20px; 
 }
-
